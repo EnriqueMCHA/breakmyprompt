@@ -16,16 +16,28 @@ export default function Home() {
     useState<Difficulty | null>(null);
   const [selectedLevel, setSelectedLevel] = useState<number | null>(null);
   const difficultyRef = useRef<HTMLDivElement>(null);
+  const levelPickerRef = useRef<HTMLDivElement>(null);
   const chatRef = useRef<HTMLDivElement>(null);
 
   const scrollToDifficulty = useCallback(() => {
     difficultyRef.current?.scrollIntoView({ behavior: "smooth" });
   }, []);
 
-  const handleDifficultySelect = useCallback((difficulty: Difficulty) => {
-    setSelectedDifficulty(difficulty);
-    setSelectedLevel(null);
+  const scrollToLevel = useCallback(() => {
+    levelPickerRef.current?.scrollIntoView({ behavior: "smooth" });
   }, []);
+
+  const handleDifficultySelect = useCallback(
+    (difficulty: Difficulty) => {
+      setSelectedDifficulty(difficulty);
+      setSelectedLevel(null);
+
+      setTimeout(() => {
+        scrollToLevel();
+      }, 100);
+    },
+    [scrollToLevel],
+  );
 
   const handleLevelSelect = useCallback((level: number) => {
     setSelectedLevel(level);
@@ -57,6 +69,7 @@ export default function Home() {
         {selectedDifficulty && (
           <LevelPicker
             difficulty={selectedDifficulty}
+            ref={levelPickerRef}
             onSelectLevel={handleLevelSelect}
           />
         )}

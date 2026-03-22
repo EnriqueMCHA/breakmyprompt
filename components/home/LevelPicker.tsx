@@ -6,18 +6,24 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty } from "@/lib/levels/types";
 import { DIFFICULTY_LEVELS } from "@/lib/levels/types";
+import { RefObject } from "react";
 
 interface LevelPickerProps {
   difficulty: Difficulty;
+  ref?: RefObject<HTMLDivElement | null>;
   onSelectLevel: (level: number) => void;
 }
 
-export function LevelPicker({ difficulty, onSelectLevel }: LevelPickerProps) {
+export function LevelPicker({
+  difficulty,
+  onSelectLevel,
+  ref,
+}: LevelPickerProps) {
   const { t } = useTranslation();
   const levels = DIFFICULTY_LEVELS[difficulty];
 
   return (
-    <section className="pb-16 px-4 sm:px-6">
+    <section ref={ref} className="pb-16 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <div className="flex items-center gap-3 mb-8">
           <Badge difficulty={difficulty}>{t(`difficulty.${difficulty}`)}</Badge>
