@@ -27,6 +27,12 @@ export function Navbar() {
               {t("nav.home")}
             </Link>
             <Link
+              href="/sandbox"
+              className="text-sm text-muted hover:text-foreground transition-colors"
+            >
+              {t("nav.sandbox")}
+            </Link>
+            <Link
               href="/theory"
               className="text-sm text-muted hover:text-foreground transition-colors"
             >
