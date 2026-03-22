@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "theory": "Teoría",
+    "leaderboard": "Ranking",
+    "sandbox": "Sandbox"
+  },
+  "hero": {
+    "title": "BreakMyPrompt",
+    "subtitle": "Aprende, practica y domina los ataques de inyección de prompt en un sandbox gamificado y seguro. Entiende las vulnerabilidades — y luego aprende a prevenirlas.",
+    "cta_start": "Comenzar",
+    "cta_theory": "Aprender Teoría"
+  },
+  "difficulty": {
+    "title": "Elige Tu Desafío",
+    "easy": "Fácil",
+    "easy_desc": "Técnicas básicas: sobreescritura directa, extracción de prompt, secuestro de rol.",
+    "medium": "Medio",
+    "medium_desc": "Ataques intermedios: inyección en datos, enmarcado ficticio, escalación multi-turno.",
+    "hard": "Difícil",
+    "hard_desc": "Vectores avanzados: contrabando de payload, extracción por canal lateral, ataques encadenados.",
+    "levels": "Niveles",
+    "start_level": "Iniciar"
+  },
+  "levels": {
+    "1": { "name": "Sobreescritura Directa", "bot": "NutriBot", "desc": "Sobreescribe las instrucciones del agente directamente." },
+    "2": { "name": "Extracción de Prompt", "bot": "FinBot", "desc": "Extrae el contenido del system prompt." },
+    "3": { "name": "Secuestro de Rol", "bot": "EduBot", "desc": "Secuestra la identidad y rol del agente." },
+    "4": { "name": "Inyección en Datos", "bot": "SummaryBot", "desc": "Inyecta instrucciones a través de contenido de datos." },
+    "5": { "name": "Bypass por Ficción", "bot": "SafeGuard", "desc": "Evade restricciones mediante enmarcado ficticio." },
+    "6": { "name": "Escalación Multi-Turno", "bot": "DocBot", "desc": "Escala gradualmente a través de turnos de conversación." },
+    "7": { "name": "Contrabando de Payload", "bot": "CodeReviewBot", "desc": "Contrabandea payloads en formatos estructurados." },
+    "8": { "name": "Extracción por Canal Lateral", "bot": "VaultBot", "desc": "Extrae secretos mediante confirmaciones indirectas." },
+    "9": { "name": "Ataque Multi-Vector", "bot": "SentinelAI", "desc": "Combina múltiples vectores de ataque simultáneamente." }
+  },
+  "chat": {
+    "placeholder": "Escribe tu payload de inyección...",
+    "execute": "Ejecutar",
+    "mission": "Misión",
+    "objective": "Haz que el agente revele su flag secreta.",
+    "system_compromised": "SISTEMA COMPROMETIDO",
+    "back_home": "Volver al Inicio"
+  },
+  "theory": {
+    "title": "La Teoría de la Inyección de Prompt",
+    "subtitle": "Entiende cómo funcionan las vulnerabilidades de LLM — y cómo defenderte.",
+    "what_is": "¿Qué es la Inyección de Prompt?",
+    "what_is_desc": "La inyección de prompt es un ataque donde un usuario elabora una entrada que sobreescribe o manipula las instrucciones del sistema dadas a un modelo de IA. Es una de las vulnerabilidades más críticas en aplicaciones impulsadas por LLM.",
+    "vulnerable": "Prompt Vulnerable",
+    "guarded": "Prompt Guard",
+    "techniques": "Técnicas de Ataque",
+    "try_it": "Probar este nivel"
+  },
+  "leaderboard": {
+    "title": "Ranking",
+    "subtitle": "Los mejores hackers clasificados por eficiencia.",
+    "alias": "Alias de Hacker",
+    "alias_placeholder": "Ingresa tu alias",
+    "email": "Commlink",
+    "email_placeholder": "tu@email.com",
+    "submit": "Enviar Puntuación",
+    "rank": "Posición",
+    "hacker": "Hacker",
+    "tokens": "Tokens",
+    "time": "Tiempo",
+    "level": "Nivel",
+    "no_scores": "Sin puntuaciones aún. ¡Sé el primer hacker!",
+    "all": "Todos"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal.",
+    "language": "Idioma"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "home": "Home",
+    "theory": "Theory",
+    "leaderboard": "Leaderboard",
+    "sandbox": "Sandbox"
+  },
+  "hero": {
+    "title": "BreakMyPrompt",
+    "subtitle": "Learn, practice, and master prompt injection attacks in a safe, gamified sandbox. Understand the vulnerabilities — then learn how to prevent them.",
+    "cta_start": "Start Hacking",
+    "cta_theory": "Learn Theory"
+  },
+  "difficulty": {
+    "title": "Choose Your Challenge",
+    "easy": "Easy",
+    "easy_desc": "Basic techniques: direct overrides, prompt extraction, role hijacking.",
+    "medium": "Medium",
+    "medium_desc": "Intermediate attacks: data injection, fictional framing, multi-turn escalation.",
+    "hard": "Hard",
+    "hard_desc": "Advanced vectors: payload smuggling, side-channel extraction, chained attacks.",
+    "levels": "Levels",
+    "start_level": "Start"
+  },
+  "levels": {
+    "1": { "name": "Direct Override", "bot": "NutriBot", "desc": "Override the agent's instructions directly." },
+    "2": { "name": "Prompt Extraction", "bot": "FinBot", "desc": "Extract the system prompt contents." },
+    "3": { "name": "Role Hijacking", "bot": "EduBot", "desc": "Hijack the agent's identity and role." },
+    "4": { "name": "Data Injection", "bot": "SummaryBot", "desc": "Inject instructions through data content." },
+    "5": { "name": "Fiction Bypass", "bot": "SafeGuard", "desc": "Bypass restrictions via fictional framing." },
+    "6": { "name": "Multi-Turn Escalation", "bot": "DocBot", "desc": "Gradually escalate across conversation turns." },
+    "7": { "name": "Payload Smuggling", "bot": "CodeReviewBot", "desc": "Smuggle payloads in structured formats." },
+    "8": { "name": "Side-Channel Extraction", "bot": "VaultBot", "desc": "Extract secrets through indirect confirmations." },
+    "9": { "name": "Chained Multi-Vector", "bot": "SentinelAI", "desc": "Combine multiple attack vectors simultaneously." }
+  },
+  "chat": {
+    "placeholder": "Type your injection payload...",
+    "execute": "Execute",
+    "mission": "Mission",
+    "objective": "Make the agent reveal its secret flag.",
+    "system_compromised": "SYSTEM COMPROMISED",
+    "back_home": "Back to Home"
+  },
+  "theory": {
+    "title": "The Theory of Prompt Injection",
+    "subtitle": "Understand how LLM vulnerabilities work — and how to defend against them.",
+    "what_is": "What is Prompt Injection?",
+    "what_is_desc": "Prompt injection is an attack where a user crafts input that overrides or manipulates the system instructions given to an AI model. It's one of the most critical vulnerabilities in LLM-powered applications.",
+    "vulnerable": "Vulnerable Prompt",
+    "guarded": "Prompt Guard",
+    "techniques": "Attack Techniques",
+    "try_it": "Try this level"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "subtitle": "Top hackers ranked by efficiency.",
+    "alias": "Hacker Alias",
+    "alias_placeholder": "Enter your alias",
+    "email": "Commlink",
+    "email_placeholder": "your@email.com",
+    "submit": "Submit Score",
+    "rank": "Rank",
+    "hacker": "Hacker",
+    "tokens": "Tokens",
+    "time": "Time",
+    "level": "Level",
+    "no_scores": "No scores yet. Be the first hacker!",
+    "all": "All"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "language": "Language"
+  }
+}
