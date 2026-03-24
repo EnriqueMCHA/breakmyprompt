@@ -7,10 +7,10 @@ export function Footer() {
             <span className="font-display font-semibold text-foreground">
               Break<span className="text-primary">My</span>Prompt
             </span>{" "}
-            &mdash; Learn AI Security
+            &mdash; Learn about prompt injection attacks.
           </p>
           <p className="text-xs text-muted">
-            Built for the Hackathon &middot; 2025
+            Built for @enriquemcha - rike with ❤️ &middot; 2026
           </p>
         </div>
       </div>
