@@ -1,8 +1,8 @@
 "use client";
 
-import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
-import { GlassCard } from "@/components/ui/GlassCard";
+import { Badge } from "@/app/_ui/Badge";
+import { Button } from "@/app/_ui/Button";
+import { GlassCard } from "@/app/_ui/GlassCard";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty } from "@/lib/levels/types";
 import { DIFFICULTY_LEVELS } from "@/lib/levels/types";

@@ -1,11 +1,11 @@
 "use client";
 
-import { ChatSandbox } from "@/components/chat/ChatSandbox";
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
-import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
-import { GlassCard } from "@/components/ui/GlassCard";
+import { ChatSandbox } from "@/app/_chat/ChatSandbox";
+import { Footer } from "@/app/_layout/Footer";
+import { Navbar } from "@/app/_layout/Navbar";
+import { Badge } from "@/app/_ui/Badge";
+import { Button } from "@/app/_ui/Button";
+import { GlassCard } from "@/app/_ui/GlassCard";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty } from "@/lib/levels/types";
 import { DIFFICULTY_LEVELS } from "@/lib/levels/types";

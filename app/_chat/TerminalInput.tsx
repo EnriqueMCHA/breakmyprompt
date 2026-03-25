@@ -1,15 +1,18 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { Button } from "@/app/_ui/Button";
 import { useTranslation } from "@/lib/i18n/provider";
-import { Button } from "@/components/ui/Button";
+import { useCallback, useRef, useState } from "react";
 
 interface TerminalInputProps {
   onSubmit: (message: string) => void;
   disabled?: boolean;
 }
 
-export function TerminalInput({ onSubmit, disabled = false }: TerminalInputProps) {
+export function TerminalInput({
+  onSubmit,
+  disabled = false,
+}: TerminalInputProps) {
   const { t } = useTranslation();
   const [value, setValue] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -59,8 +62,14 @@ export function TerminalInput({ onSubmit, disabled = false }: TerminalInputProps
           {disabled ? (
             <span className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" style={{ animationDelay: "150ms" }} />
-              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" style={{ animationDelay: "300ms" }} />
+              <span
+                className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"
+                style={{ animationDelay: "150ms" }}
+              />
+              <span
+                className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"
+                style={{ animationDelay: "300ms" }}
+              />
             </span>
           ) : (
             t("chat.execute")

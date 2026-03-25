@@ -1,11 +1,11 @@
 "use client";
 
-import { ChatSandbox } from "@/components/chat/ChatSandbox";
-import { DifficultyGrid } from "@/components/home/DifficultyGrid";
-import { HeroSection } from "@/components/home/HeroSection";
-import { LevelPicker } from "@/components/home/LevelPicker";
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
+import { ChatSandbox } from "@/app/_chat/ChatSandbox";
+import { DifficultyGrid } from "@/app/_components/DifficultyGrid";
+import { HeroSection } from "@/app/_components/HeroSection";
+import { LevelPicker } from "@/app/_components/LevelPicker";
+import { Footer } from "@/app/_layout/Footer";
+import { Navbar } from "@/app/_layout/Navbar";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty } from "@/lib/levels/types";
 import { useCallback, useRef, useState } from "react";

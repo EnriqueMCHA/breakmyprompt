@@ -1,17 +1,17 @@
 "use client";
 
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
-import { FinalRecommendationsSection } from "@/components/theory/FinalRecommendationsSection";
-import { TechniqueCard } from "@/components/theory/TechniqueCard";
-import { TheoryHero } from "@/components/theory/TheoryHero";
+import { Footer } from "@/app/_layout/Footer";
+import { Navbar } from "@/app/_layout/Navbar";
+import { FinalRecommendationsSection } from "@/app/theory/_components/FinalRecommendationsSection";
+import { TechniqueCard } from "@/app/theory/_components/TechniqueCard";
+import { TheoryHero } from "@/app/theory/_components/TheoryHero";
 import {
   TheoryScrollspy,
   type SectionEntry,
-} from "@/components/theory/TheoryScrollspy";
-import { TypesSection } from "@/components/theory/TypesSection";
-import { WhatIsSection } from "@/components/theory/WhatIsSection";
-import { WhyMattersSection } from "@/components/theory/WhyMattersSection";
+} from "@/app/theory/_components/TheoryScrollspy";
+import { TypesSection } from "@/app/theory/_components/TypesSection";
+import { WhatIsSection } from "@/app/theory/_components/WhatIsSection";
+import { WhyMattersSection } from "@/app/theory/_components/WhyMattersSection";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty } from "@/lib/levels/types";
 import { useCallback, useEffect, useRef, useState } from "react";

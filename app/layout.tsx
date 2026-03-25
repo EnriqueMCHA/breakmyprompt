@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { ThemeProvider } from "@/app/_providers/ThemeProvider";
 import { I18nProvider } from "@/lib/i18n/provider";
 import type { Metadata } from "next";
 import localFont from "next/font/local";

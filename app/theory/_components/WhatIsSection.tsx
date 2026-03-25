@@ -1,6 +1,6 @@
 "use client";
 
-import { GlassCard } from "@/components/ui/GlassCard";
+import { GlassCard } from "@/app/_ui/GlassCard";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Ref } from "react";
 

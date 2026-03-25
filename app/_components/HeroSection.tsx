@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/app/_ui/Button";
 import { useTranslation } from "@/lib/i18n/provider";
 
 interface HeroSectionProps {

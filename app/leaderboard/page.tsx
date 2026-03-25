@@ -1,10 +1,10 @@
 "use client";
 
-import { Footer } from "@/components/layout/Footer";
-import { Navbar } from "@/components/layout/Navbar";
-import { Button } from "@/components/ui/Button";
-import { GlassCard } from "@/components/ui/GlassCard";
-import { Tabs } from "@/components/ui/Tabs";
+import { Footer } from "@/app/_layout/Footer";
+import { Navbar } from "@/app/_layout/Navbar";
+import { Button } from "@/app/_ui/Button";
+import { GlassCard } from "@/app/_ui/GlassCard";
+import { Tabs } from "@/app/_ui/Tabs";
 import { useTranslation } from "@/lib/i18n/provider";
 import type { Difficulty, Score } from "@/lib/levels/types";
 import { useState } from "react";
